@@ -25,21 +25,10 @@ void setup() {
     //println(artist2);
     artistNames[i] = artist2[0].getContent();
   }
-
   println(artistNames.length); 
   println(artistNames); 
 
-  /**  
-   for(int i=0; i< children.length; i++){
-   songs = children[i].getChildren("html");
-   println(songs.length);
-   }
-   
-   for(int i=0; i< songs.length; i++){
-   XML[]  artist = songs[i].getChildren("artist");
-   println(artist.length);
-   }
-   */
+
 }
 
 void draw() {
